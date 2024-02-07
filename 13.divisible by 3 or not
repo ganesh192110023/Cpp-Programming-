@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	string k;
+	cout << "enter the number=";
+	cin >> n;
+	k=(n%3==0)?" divisible by 3":"is not divisible by 3";
+	cout << k;
+}
