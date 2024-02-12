@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+     int num;
+     cout<<"Enter any integer";
+     cin>>num;
+     if(num%7==0 || num%10==7)
+     {
+          cout<<"Buzz number";
+     }
+     else
+     {
+           cout<<"Not a buzz number";
+     }
+     return 0;
+}
