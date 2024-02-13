@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n,i,sum=0,m;
+    cout<<"enter the number:";
+    cin  >>n;
+    m=n/2;
+    for(i=1;i<=m;i++)
+    {
+        if(n%i==0)
+        {
+            sum=sum+i;
+        }
+    }
+    if(sum>n)
+    {
+        cout  <<"number is abundant";
+    }
+    else
+    {
+        cout  <<"number is not abundant number";
+    }
+}
